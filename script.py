@@ -123,7 +123,7 @@ elif app_mode == "Forecast + SMS Alert":
 # ----------- Prediction with Prophet (Script 2) -----------  
 elif app_mode == "Predict Future AQI":
     st.title("🌫️ Predict future AQI")
-    #st.markdown("Forecast AQI for a single date or average over a date range. Made by Abhishek Kumar Gupta")
+    #st.markdown("Forecast AQI for a single date or average over a date range. 
 
     # Prophet forecast cache  
     @st.cache_data
